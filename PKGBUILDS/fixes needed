@@ -1,0 +1,13 @@
+Michael Monaco <thepoorpilot@gmail.com>
+
+fix version number
+
+remove davinci-resolve
+replace libxine-1 with xine-lib
+
+for pasting:
+${pkgdir}/usr/share/doc/
+
+rename -v -n -- '-bin-bin' '-bin' *-bin-bin
+
+find *.deb -type f -print | xargs -I {} sed -i 's/PUT_FULL_URL_FOR_DOWNLOADING_amd64_DEB_PACKAGE_HERE/{}/g' PKGBUILD
