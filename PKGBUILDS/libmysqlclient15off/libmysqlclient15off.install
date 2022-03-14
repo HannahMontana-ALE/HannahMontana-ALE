@@ -1,0 +1,8 @@
+post_remove() {
+	if [ "$1" = "remove" ]; then
+		ldconfig
+	fi
+	if [ "$1" = "remove" ]; then
+		ldconfig
+	fi
+}

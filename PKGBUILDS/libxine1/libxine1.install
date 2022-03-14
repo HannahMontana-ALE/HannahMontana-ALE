@@ -1,0 +1,12 @@
+post_install() {
+	DOCDIR=/usr/share/doc/libxine1
+	if [ -d "$DOCDIR" -a ! -L "$DOCDIR" ]; then                  
+	  rmdir "$DOCDIR" && ln -s libxine1-bin "$DOCDIR"
+	fi
+
+	##
+}
+
+post_upgrade() {
+	post_install
+}
