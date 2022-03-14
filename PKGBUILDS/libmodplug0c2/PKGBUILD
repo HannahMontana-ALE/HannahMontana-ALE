@@ -2,7 +2,7 @@
 # Maintainer: Michael Monaco <thepoorpilot@gmail.com> 
 
 pkgname=libmodplug0c2
-pkgver=1:0.8.4
+pkgver=0.8.4
 pkgrel=1
 pkgdesc="Shared libraries for mod music based on ModPlug. This is a library based on the mod rendering code from ModPlug, a popular windows mod player written by Olivier Lapicque, found at xmms-modplug package)."
 arch=('x86_64')

@@ -2,7 +2,7 @@
 # Maintainer: Michael Monaco <thepoorpilot@gmail.com> 
 
 pkgname=kubuntu-artwork-usplash
-pkgver=1:9.04.26
+pkgver=9.04.26
 pkgrel=1
 pkgdesc="Kubuntu artwork for usplash. The usplash startup screen for Kubuntu."
 arch=('x86_64')

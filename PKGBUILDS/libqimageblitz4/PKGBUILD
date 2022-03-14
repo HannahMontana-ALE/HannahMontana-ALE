@@ -2,7 +2,7 @@
 # Maintainer: Michael Monaco <thepoorpilot@gmail.com> 
 
 pkgname=libqimageblitz4
-pkgver=1:0.0.4
+pkgver=0.0.4
 pkgrel=1
 pkgdesc="QImageBlitz image effects library. QImageBlitz is an interim graphical effect and filter library for KDE 4.0 that contains many improvements over KDE 3.x's kdefx library, including bugfixes and speed improvements. It is expected to be replaced by Quasar for KDE 4.1."
 arch=('x86_64')

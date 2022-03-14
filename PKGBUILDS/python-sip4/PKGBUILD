@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://www.riverbankcomputing.co.uk/software/sip"
 license=('custom')
 groups=('')
-depends=('gcc>=4.1.1' 'gcc-libs>=4.1.1' 'glibc>=2.4' 'python>=2.5' 'python25,' 'python<2.7')
+depends=('gcc>=4.1.1' 'gcc-libs>=4.1.1' 'glibc>=2.4' 'python>=2.5' 'python25' 'python<2.7')
 provides=('python2.5-sip4' 'python2.6-sip4')
 options=('!strip' '!emptydirs')
 
