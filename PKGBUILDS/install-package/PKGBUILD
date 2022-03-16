@@ -9,7 +9,7 @@ arch=('any')
 url=""
 license=('custom')
 groups=('')
-depends=('gdebi-kde' 'python')
+
 options=('!strip' '!emptydirs')
 source=("install-package_0.3.1_all.deb")
 sha512sums=('305515818627aafab7179a83d7863f5c7fbc80c4c18a010de4653bf8865bb2db1b4feb3fea55aa57dc88597e92d38f1076d3eba16ec48bac5d9753dde6ba4920')

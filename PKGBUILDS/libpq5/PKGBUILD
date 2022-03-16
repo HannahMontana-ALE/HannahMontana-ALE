@@ -9,7 +9,7 @@ arch=('x86_64')
 url=""
 license=('custom')
 groups=('')
-depends=('glibc>=2.4' 'krb5>=1.6.2' 'libcomerr2>=1.01' 'libssl0.9.8>=0.9.8f' 'xampp>=2.4.7')
+
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 

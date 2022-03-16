@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://www.kde.org"
 license=('custom')
 groups=('')
-depends=('gcc>=4.1.1' 'gcc-libs>=4.1.1' 'glibc>=2.4' 'hicolor-icon-theme' 'kdelibs>=4.2.1' 'libgl' 'libice>=1.0.0' 'libqtcore4>=4.5.0.rc1' 'libqtgui4>=4.5.0.rc1' 'libsm' 'libx11' 'libxau' 'libxdmcp' 'libxext' 'libxft>2.1.1' 'qt4>=4.5.0.rc1')
+
 replaces=('kdebase-workspace-data<4.1.73' 'libplasma')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

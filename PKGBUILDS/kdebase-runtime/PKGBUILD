@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://www.kde.org"
 license=('custom')
 groups=('')
-depends=('alsa-lib>1.0.18' 'clucene>=0.9.20' 'gcc>=4.1.1' 'gcc-libs>=4.2.1' 'glibc>=2.4' 'hicolor-icon-theme' 'kdebase-runtime-bin-kde4=4.2.2' 'kdebase-runtime-data>=4.2.2' 'kde-icons-oxygen>=4.2.2' 'kdelibs>=4.2.1' 'libice>=1.0.0' 'libilmbase6' 'libjpeg6-turbo' 'libphonon4>4.3.1' 'libpulse>=0.9.14' 'libqt4-qt3support>=4.5.0.rc1' 'libqtcore4>=4.5.0.rc1' 'libqtgui4>=4.5.0.rc1' 'libsm' 'libsoprano4>=2.2.2' 'libstreamanalyzer0>=0.6.4' 'libstreams0>=0.6.4' 'libx11' 'libxau' 'libxcursor>1.1.2' 'libxdmcp' 'libxext' 'libxft>2.1.1' 'xine-lib' 'openexr>=1.6.1' 'phonon-backend' 'phonon-backend-xine' 'phonon-qt4' 'qt4>=4.5.0.rc1' 'smbclient>=3.2.0')
+
 replaces=('kdebase-bin<4.0.0' 'kdelibs<3.5.10')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

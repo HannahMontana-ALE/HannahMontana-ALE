@@ -9,7 +9,7 @@ arch=('any')
 url=""
 license=('custom')
 groups=('')
-depends=('gdebi-core=0.4.9' 'kdesudo' 'python>=3.16.0' 'pythoncurrent')
+
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 source=("gdebi-kde_0.4.9_all.deb")

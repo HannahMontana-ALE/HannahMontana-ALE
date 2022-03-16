@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://librdf.org/rasqal"
 license=('custom')
 groups=('')
-depends=('glibc>=2.4' 'gmpc' 'raptor1>=1.4.16')
+
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 

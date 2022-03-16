@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://www.xine-project.org"
 license=('custom')
 groups=('')
-depends=('libxine1-console=1.1.16.3' 'libxine1-misc-plugins=1.1.16.3' 'libxine1-plugins=1.1.16.3' 'libxine1-x=1.1.16.3')
+
 optdepends=('gxine'
             'libxine1-doc'
             'libxine1-ffmpeg'

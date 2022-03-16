@@ -9,7 +9,7 @@ arch=('x86_64')
 url=""
 license=('custom')
 groups=('')
-depends=('glibc>=2.2.5' 'initramfs>=0.40' 'usplash>=0.5')
+
 provides=('usplash-theme')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

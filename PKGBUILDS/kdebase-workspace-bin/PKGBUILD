@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://www.kde.org"
 license=('custom')
 groups=('')
-depends=('bash-completion' 'efl>=1.0.0' 'fontconfig>=2.4.0' 'freetype2>=2.2.1' 'gcc>=4.1.1' 'gcc-libs>=4.2.1' 'glib2>=2.12.0' 'glibc>=2.4' 'hicolor-icon-theme' 'kdebase-runtime>=4.2.1' 'kdebase-workspace-data=4.2.2' 'kdebase-workspace-libs4+5' 'kdelibs>=4.2.1' 'kdepimlibs5>=4.2.2' 'libgl' 'libglvnd' 'libice>=1.0.0' 'libphonon4>4.3.1' 'libplasma' 'libpng12>=1.2.13' 'libqedje0' 'libqimageblitz4' 'libqt4-qt3support>=4.5.0.rc1' 'libqtcore4>=4.5.0.rc1' 'libqtgui4>=4.5.0.rc1' 'libqzion0' 'libsm' 'libsoprano4>=2.2.2' 'libstreamanalyzer0>=0.6.4' 'libstrigiqtdbusclient0>=0.6.4' 'libusb-compat>=0.1.12' 'libx11' 'libxau' 'libxcomposite>=0.3' 'libxcursor>1.1.2' 'libxdamage>=1.1' 'libxdmcp' 'libxext' 'libxfixes>=4.0.1' 'libxft>2.1.1' 'libxi>=1.2.0' 'libxinerama' 'libxklavier>=3.8' 'libxrandr>=1.2.99.2' 'libxrender' 'libxss' 'libxtst' 'libxxf86misc' 'pam>=0.99.7.1' 'phonon>4.3.1' 'phonon-qt4' 'qt4>=4.5.0.rc1' 'xorg-appres' 'zlib>=1.1.4')
+
 optdepends=('dontzap'
             'python'
             'xorg-xkbutils')

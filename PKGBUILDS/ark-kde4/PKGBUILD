@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://www.kde.org"
 license=('custom')
 groups=('')
-depends=('gcc>=4.1.1' 'gcc-libs>=4.1.1' 'glibc>=2.4' 'hicolor-icon-theme' 'kdebase-runtime>=4.2.1' 'kdelibs>=4.2.1' 'libarchive>=2.0.25' 'libqtcore4>=4.5.0.rc1' 'libqtgui4>=4.5.0.rc1' 'libzip' 'qt4>=4.5.0.rc1' 'zlib>=1.1.4')
+
 optdepends=('anaconda'
             'ncompress'
             'p7zip'

@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://www.kde.org"
 license=('custom')
 groups=('')
-depends=('fontconfig>=2.4.0' 'freetype2>=2.2.1' 'gcc>=4.1.1' 'gcc-libs>=4.1.1' 'glibc>=2.4' 'hicolor-icon-theme' 'kdebase-runtime>=4.2.1' 'kdelibs>=4.2.1' 'libice>=1.0.0' 'libplasma' 'libqt4-qt3support>=4.5.0.rc1' 'libqtcore4>=4.5.0.rc1' 'libqtgui4>=4.5.0.rc1' 'libsm' 'libsoprano4>=2.2.2' 'libx11' 'libxau' 'libxcomposite>=0.3' 'libxdmcp' 'libxext' 'libxfixes>=4.0.1' 'libxft>2.1.1' 'libxrandr>=1.2.99.2' 'libxrender' 'libxtst' 'qt4>=4.5.0.rc1' 'zlib>=1.1.4')
+
 replaces=('kdebase-workspace-bin<4.1.80' 'ksysguard<=4.0.72' 'libplasma')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

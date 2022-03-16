@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://www.kde.org"
 license=('custom')
 groups=('')
-depends=('dbus>=1.0.2' 'gcc>=4.1.1' 'gcc-libs>=4.1.1' 'glibc>=2.4' 'hicolor-icon-theme' 'kdebase-runtime>=4.2.1' 'kdelibs>=4.2.1' 'libck>=0.2.1' 'libice>=1.0.0' 'libqimageblitz4' 'libqtcore4>=4.5.0.rc1' 'libqtgui4>=4.5.0.rc1' 'libsm' 'libx11' 'libxau' 'libxdmcp' 'libxext' 'libxft>2.1.1' 'libxtst' 'lsb-base>=3.2' 'pam>=0.99.7.1' 'qt4>=4.5.0.rc1')
+
 optdepends=('kdebase'
             'kdepasswd'
             'logrotate'

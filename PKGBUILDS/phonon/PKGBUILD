@@ -9,7 +9,7 @@ arch=('any')
 url="http://phonon.kde.org"
 license=('custom')
 groups=('')
-depends=('phonon-backend' 'phonon-backend-gstreamer')
+
 optdepends=('phonon-backend-mplayer'
             'phonon-backend-vlc'
             'phonon-backend-xine')

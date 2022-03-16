@@ -9,7 +9,7 @@ arch=('x86_64')
 url=""
 license=('custom')
 groups=('')
-depends=('anaconda>=1.1.18' 'glibc>=2.4' 'gnutls>=2.4.0' 'krb5>=1.6.2' 'libcurl-gnutls>=7.16.2' 'libidn11>=0.5.18' 'libxml2>=2.6.27' 'xampp>=2.4.7' 'zlib>=1.1.4')
+
 optdepends=('raptor')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

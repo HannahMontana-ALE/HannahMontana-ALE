@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://pim.kde.org"
 license=('custom')
 groups=('')
-depends=('gcc>=4.1.1' 'gcc-libs>=4.2.1' 'glibc>=2.4' 'gpgme>=1.1.8' 'hicolor-icon-theme' 'kdelibs>=4.2.1' 'kdepimlibs-data>=4.2.2' 'libakonadiprivate1' 'libgpg-error>=1.4' 'libical>=0.30' 'libpth20>=2.0.7' 'libqtcore4>=4.5.0.rc1' 'libqtgui4>=4.5.0.rc1' 'mailspring' 'qt4>=4.5.0.rc1' 'xampp>=2.4.7')
+
 replaces=('akonadi<4.1.80.')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

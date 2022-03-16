@@ -9,7 +9,7 @@ arch=('any')
 url="http://www.riverbankcomputing.co.uk/software/pyqt"
 license=('custom')
 groups=('')
-depends=('python>=2.5' 'python25' 'python<2.7')
+
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 source=("python-qt4-common_4.4.4-2ubuntu6_all.deb")

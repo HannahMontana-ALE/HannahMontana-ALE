@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://dev.openbossa.org/trac/qedje"
 license=('custom')
 groups=('')
-depends=('efl>=1.0.0' 'gcc>=4.1.1' 'gcc-libs>=4.1.1' 'glibc>=2.4' 'hicolor-icon-theme' 'libqtcore4>=4.4.3' 'libqtgui4>=4.4.3' 'libqzion0')
+
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 

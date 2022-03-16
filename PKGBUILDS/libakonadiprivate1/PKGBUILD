@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://pim.kde.org/akonadi"
 license=('custom')
 groups=('')
-depends=('boost>=1.35.0' 'gcc>=4.1.1' 'gcc-libs>=4.2.1' 'glibc>=2.4' 'hicolor-icon-theme' 'libqtcore4>=4.4.3' 'qt4>=4.4.3')
+
 optdepends=('akonadi')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

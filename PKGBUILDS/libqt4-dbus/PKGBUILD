@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://www.trolltech.com"
 license=('custom')
 groups=('')
-depends=('gcc>=4.1.1' 'gcc-libs>=4.1.1' 'glibc>=2.4' 'hicolor-icon-theme' 'libqtcore4=4.5.0' 'qt4=4.5.0')
+
 replaces=('qt4<4.4.0beta1')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

@@ -9,7 +9,7 @@ arch=('any')
 url=""
 license=('custom')
 groups=('')
-depends=('python>=2.4')
+
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 source=("software-properties-kde_0.71.5_all.deb")

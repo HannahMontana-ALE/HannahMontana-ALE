@@ -12,7 +12,6 @@
 /home/michael/Documents/GitHub/hannahmontana-arch/PKGBUILDS/kdepimlibs-data
 /home/michael/Documents/GitHub/hannahmontana-arch/PKGBUILDS/kdepimlibs5
 /home/michael/Documents/GitHub/hannahmontana-arch/PKGBUILDS/kubuntu-artwork-usplash
-/home/michael/Documents/GitHub/hannahmontana-arch/PKGBUILDS/kubuntu-desktop
 /home/michael/Documents/GitHub/hannahmontana-arch/PKGBUILDS/libakonadiprivate1
 /home/michael/Documents/GitHub/hannahmontana-arch/PKGBUILDS/libaudio2
 /home/michael/Documents/GitHub/hannahmontana-arch/PKGBUILDS/libboost-program-options1.35.0
@@ -98,3 +97,4 @@
 /home/michael/Documents/GitHub/hannahmontana-arch/PKGBUILDS/konsole-kde4
 /home/michael/Documents/GitHub/hannahmontana-arch/PKGBUILDS/kmix-kde4
 /home/michael/Documents/GitHub/hannahmontana-arch/PKGBUILDS/ksysguard-kde4
+/home/michael/Documents/GitHub/hannahmontana-arch/PKGBUILDS/kubuntu-desktop

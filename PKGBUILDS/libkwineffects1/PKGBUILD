@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://www.kde.org"
 license=('custom')
 groups=('')
-depends=('gcc>=4.1.1' 'gcc-libs>=4.1.1' 'glibc>=2.2.5' 'hicolor-icon-theme' 'kdebase-runtime>=4.2.1' 'kdebase-workspace-libs4+5' 'kdelibs>=4.2.1' 'libgl' 'libice>=1.0.0' 'libqtcore4>=4.5.0.rc1' 'libqtgui4>=4.5.0.rc1' 'libsm' 'libx11' 'libxau' 'libxcomposite>=0.3' 'libxdamage>=1.1' 'libxdmcp' 'libxext' 'libxfixes>=4.0.1' 'libxft>2.1.1' 'libxrandr>=1.2.99.2' 'libxrender' 'qt4>=4.5.0.rc1')
+
 replaces=('kwin>=4.0.1')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

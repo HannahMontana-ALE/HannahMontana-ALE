@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://www.kde.org"
 license=('custom')
 groups=('')
-depends=('gcc>=4.1.1' 'gcc-libs>=4.1.1' 'glibc>=2.2.5' 'hicolor-icon-theme' 'kdebase-runtime>=4.2.1' 'kdelibs>=4.2.1' 'kdepimlibs5>=4.2.2' 'libphonon4>4.3.1' 'libplasma' 'libqtcore4>=4.5.0.rc1' 'libqtgui4>=4.5.0.rc1' 'libsoprano4>=2.2.2' 'phonon>4.3.1' 'python2>=2.6' 'python>=4.3' 'qt4>=4.5.0.rc1')
+
 replaces=('python<4.2.1')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

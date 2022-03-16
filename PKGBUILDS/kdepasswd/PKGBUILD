@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://www.kde.org"
 license=('custom')
 groups=('')
-depends=('gcc>=4.1.1' 'gcc-libs>=4.1.1' 'glibc>=2.2.5' 'hicolor-icon-theme' 'kdebase-runtime>=4.2.1' 'kdelibs>=4.2.1' 'libkonq5' 'libqtcore4>=4.5.0.rc1' 'libqtgui4>=4.5.0.rc1' 'qt4>=4.5.0.rc1')
+
 replaces=('kdepasswd-kde4')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

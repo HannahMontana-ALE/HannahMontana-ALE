@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://strigi.sourceforge.net"
 license=('custom')
 groups=('')
-depends=('gcc>=4.1.1' 'gcc-libs>=4.2.1' 'glibc>=2.4' 'wps-office' 'zlib>=1.1.4')
+
 replaces=('strigi<0.3.11')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

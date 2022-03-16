@@ -9,7 +9,7 @@ arch=('any')
 url="http://www.kde.org"
 license=('custom')
 groups=('')
-depends=('hicolor-icon-theme')
+
 replaces=('kdelibs<3.5.10.1')
 backup=('etc/xdg/menus/kde4-applications.menu')
 options=('!strip' '!emptydirs')

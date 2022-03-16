@@ -9,7 +9,7 @@ arch=('x86_64')
 url=""
 license=('custom')
 groups=('')
-depends=('glibc>=2.4' 'libxt')
+
 optdepends=('nas')
 provides=('nas')
 replaces=('nas')

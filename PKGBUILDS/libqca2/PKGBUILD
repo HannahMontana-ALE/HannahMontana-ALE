@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://delta.affinix.com/qca"
 license=('custom')
 groups=('')
-depends=('gcc>=4.1.1' 'gcc-libs>=4.1.1' 'glibc>=2.4' 'hicolor-icon-theme' 'libqtcore4>=4.4.0')
+
 optdepends=('libqca2-plugin-cyrus-sasl'
             'libqca2-plugin-gnupg'
             'libqca2-plugin-ossl'

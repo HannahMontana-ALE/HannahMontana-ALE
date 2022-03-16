@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://librdf.org"
 license=('custom')
 groups=('')
-depends=('db' 'glibc>=2.4' 'libmysqlclient>=5.0.27' 'raptor1>=1.4.18' 'rasqal>=0.9.16' 'sqlite>=3.5.9' 'xampp>=8.3beta1')
+
 optdepends=('redland')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

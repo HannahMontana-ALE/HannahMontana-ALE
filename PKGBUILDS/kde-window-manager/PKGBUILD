@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://www.kde.org"
 license=('custom')
 groups=('')
-depends=('gcc>=4.1.1' 'gcc-libs>=4.1.1' 'glibc>=2.4' 'hicolor-icon-theme' 'kdebase-runtime>=4.2.1' 'kdebase-workspace-libs4+5' 'kdelibs>=4.2.1' 'libgl' 'libglvnd' 'libice>=1.0.0' 'libkdecorations4' 'libkwineffects1>=4.2.2' 'libqt4-qt3support>=4.5.0.rc1' 'libqtcore4>=4.5.0.rc1' 'libqtgui4>=4.5.0.rc1' 'libsm' 'libx11' 'libxau' 'libxcomposite>=0.3' 'libxdamage>=1.1' 'libxdmcp' 'libxext' 'libxfixes>=4.0.1' 'libxft>2.1.1' 'libxrandr>=1.2.99.2' 'libxrender' 'qt4>=4.5.0.rc1')
+
 optdepends=('compiz')
 provides=('x-window-manager')
 replaces=('kdebase-workspace-data<4.1.80' 'kwin<4.0.98')

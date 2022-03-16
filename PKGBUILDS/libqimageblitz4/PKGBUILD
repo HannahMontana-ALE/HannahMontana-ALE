@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://www.kde.org"
 license=('custom')
 groups=('')
-depends=('gcc-libs>=4.1.1' 'glibc>=2.4' 'hicolor-icon-theme' 'libqtcore4>=4.4.0' 'libqtgui4>=4.4.0')
+
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 

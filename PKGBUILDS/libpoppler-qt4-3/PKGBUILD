@@ -9,7 +9,7 @@ arch=('x86_64')
 url=""
 license=('custom')
 groups=('')
-depends=('fontconfig>=2.4.0' 'freetype2>=2.2.1' 'gcc>=4.1.1' 'gcc-libs>=4.1.1' 'glibc>=2.4' 'hicolor-icon-theme' 'libjpeg6-turbo' 'libqtcore4>=4.5.0.rc1' 'libqtgui4>=4.5.0.rc1' 'libxml2>=2.6.27' 'poppler' 'qt4>=4.5.0.rc1' 'zlib>=1.1.4')
+
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 

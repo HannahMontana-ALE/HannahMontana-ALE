@@ -9,7 +9,7 @@ arch=('any')
 url="http://www.kde.org"
 license=('custom')
 groups=('')
-depends=('gcc-libs' 'glibc' 'kdebase-runtime-data-common>=4.2.2' 'qt4')
+
 replaces=('drkonqi' 'kdebase-bin<=3.5.8.1' 'kdebase-data<4.0.0' 'kdebase-workspace-data<4.1.96' 'kdelibs<4.1.73')
 backup=('etc/xdg/menus/kde-information.menu')
 options=('!strip' '!emptydirs')

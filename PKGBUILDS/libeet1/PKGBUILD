@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://www.enlightenment.org"
 license=('custom')
 groups=('')
-depends=('glibc>=2.4' 'libjpeg6-turbo' 'zlib>=1.1.4')
+
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 

@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://dev.mysql.com"
 license=('custom')
 groups=('')
-depends=('glibc>=2.4' 'mysql>=5.1.30really5.0.75' 'zlib>=1.1.4')
+
 replaces=('libmysqlclient' 'mysql<5.0.56')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

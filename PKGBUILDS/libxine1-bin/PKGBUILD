@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://www.xine-project.org"
 license=('custom')
 groups=('')
-depends=('freetype2>=2.2.1' 'glibc>=2.8' 'zlib>=1.2.3.3')
+
 replaces=('libxine1<1.1.8')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

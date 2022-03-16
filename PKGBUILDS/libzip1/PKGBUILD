@@ -9,7 +9,7 @@ arch=('x86_64')
 url=""
 license=('custom')
 groups=('')
-depends=('glibc>=2.6.1' 'zlib>=1.2.3.3')
+
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 

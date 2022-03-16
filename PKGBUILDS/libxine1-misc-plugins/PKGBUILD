@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://www.xine-project.org"
 license=('custom')
 groups=('')
-depends=('alsa-lib>1.0.18' 'flac' 'freetype2>=2.2.1' 'gcc-libs>=4.2.1' 'glibc>=2.8' 'lcms>=1.15' 'libice>=1.0.0' 'libjpeg6-turbo' 'libmagickcore1' 'libmagickwand1' 'libmng>=1.0.3' 'libmodplug>=0.7' 'libmpcdec' 'libogg>=1.0rc3' 'libpulse>=0.9.14' 'libsm' 'libtheora>=0.0.0alpha7' 'libtiff4' 'libtool>=2.2.6a' 'libvorbis>=1.1.2' 'libx11' 'libxext' 'libxine1-bin=1.1.16.3' 'libxt' 'smbclient>=3.0.24' 'speex>=1.2beta3' 'wavpack>=4.40.0' 'wps-office' 'zlib>=1.1.4')
+
 replaces=('libxine1<1.1.8')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

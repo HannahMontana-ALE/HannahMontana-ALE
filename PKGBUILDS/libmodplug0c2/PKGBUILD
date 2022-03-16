@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://modplug-xmms.sourceforge.net"
 license=('custom')
 groups=('')
-depends=('gcc>=4.1.1' 'gcc-libs>=4.1.1' 'glibc>=2.4')
+
 replaces=('libmodplug' 'xmms-modplug<2.04')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

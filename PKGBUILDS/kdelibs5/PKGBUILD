@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://www.kde.org"
 license=('custom')
 groups=('')
-depends=('acl>=2.2.11' 'anaconda>=1.1.18' 'attr>=2.4.41' 'dbus' 'enchant>=1.4.2' 'gcc>=4.1.1' 'gcc-libs>=4.2.1' 'glibc>=2.7' 'hicolor-icon-theme' 'insync>=7.7' 'jasper>=1.900.1' 'kdelibs>=4.2.2' 'krb5>=1.6.2' 'launchpad-integration' 'libcomerr2>=1.01' 'libgif4>=4.1.6' 'libice>=1.0.0' 'libilmbase6' 'libjpeg6-turbo' 'libphonon4>4.3.1' 'libpng12>=1.2.13' 'libqt4-qt3support>=4.5.0.rc1' 'libqtcore4>=4.5.0.rc1' 'libqtgui4>=4.5.0.rc1' 'libsm' 'libsoprano4>=2.2.2' 'libssl0.9.8>=0.9.8f' 'libstreamanalyzer0>=0.6.4' 'libstreams0>=0.6.4' 'libx11' 'libxau' 'libxcursor>1.1.2' 'libxdmcp' 'libxext' 'libxfixes>=4.0.1' 'libxft>2.1.1' 'libxml2>=2.6.27' 'libxrender' 'libxtst' 'openexr>=1.6.1' 'qt4>=4.5.0.rc1' 'shared-mime-info' 'wps-office' 'xorg-xauth' 'zlib>=1.1.4')
+
 optdepends=('ttf-dejavu')
 replaces=('kio')
 options=('!strip' '!emptydirs')

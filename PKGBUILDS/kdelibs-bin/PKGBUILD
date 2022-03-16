@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://www.kde.org"
 license=('custom')
 groups=('')
-depends=('anaconda>=1.1.18' 'gcc>=4.1.1' 'gcc-libs>=4.2.1' 'glibc>=2.4' 'hicolor-icon-theme' 'kdelibs=4.2.2' 'libice>=1.0.0' 'libqtcore4>=4.5.0.rc1' 'libqtgui4>=4.5.0.rc1' 'libsm' 'libsoprano4>=2.2.2' 'libx11' 'libxau' 'libxdmcp' 'libxext' 'libxft>2.1.1' 'libxml2>=2.6.27' 'libxslt' 'qt4>=4.5.0.rc1' 'zlib>=1.1.4')
+
 replaces=('kdelibs<=4.1.73')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

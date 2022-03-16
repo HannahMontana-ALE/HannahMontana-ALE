@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://phonon.kde.org"
 license=('custom')
 groups=('')
-depends=('gcc>=4.1.1' 'gcc-libs>=4.1.1' 'glibc>=2.4' 'hicolor-icon-theme' 'libphonon4=4.3.1' 'libqtcore4>=4.5.0.rc1' 'libqtgui4>=4.5.0.rc1' 'libxcb>=1.1.92' 'xine-lib' 'qt4>=4.5.0.rc1')
+
 provides=('phonon-backend')
 replaces=('kdebase-runtime<4.0.98' 'kdebase-runtime-data<4.0.98' 'kde-icons-oxygen<4.1.73')
 options=('!strip' '!emptydirs')

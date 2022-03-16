@@ -9,7 +9,7 @@ arch=('x86_64')
 url="http://www.riverbankcomputing.co.uk/software/pyqt"
 license=('custom')
 groups=('')
-depends=('gcc>=4.1.1' 'gcc-libs>=4.1.1' 'glibc>=2.2.5' 'hicolor-icon-theme' 'libqtcore4>=4.5.0.rc1' 'libqtgui4>=4.5.0.rc1' 'python2>=2.6' 'python25' 'python<2.7' 'python>=4.4.4' 'python-sip4>=4.7.6' 'python-sip4<4.8' 'qt4>=4.5.0.rc1')
+
 provides=('python2')
 replaces=('python<4.4.4')
 options=('!strip' '!emptydirs')
