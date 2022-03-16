@@ -11,7 +11,7 @@ license=('custom')
 groups=('')
 optdepends=('khelpcenter')
 replaces=('kdebase-bin<4.0.0' 'kdebase-data<4.0.0')
-#conflicts=('kde-cli-tools')
+#
 options=('!strip' '!emptydirs')
 source=("kdebase-runtime-data-common_4%3a4.2.2-0ubuntu1.1_all.deb")
 sha512sums=('92eaa6288c334f50c1a629bd4186b523854fd6a700bbb16ce820cb6ad590f3aa15f573b810a6fe1cd225a3d60e849a16d4fd73eb5e4f7e6f2ddb68f0b95e979f')

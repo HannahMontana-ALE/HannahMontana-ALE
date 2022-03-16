@@ -13,8 +13,8 @@ groups=('')
 optdepends=('kfind')
 replaces=('dolphin-kde4')
 options=('!strip' '!emptydirs')
-provides=('dolphin')
-conflicts=('dolphin')
+
+
 install=dolphin.install
 
 source_x86_64=("dolphin_4%3a4.2.2-0ubuntu4_amd64.deb")

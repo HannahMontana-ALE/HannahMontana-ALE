@@ -11,7 +11,7 @@ license=('custom')
 groups=('')
 
 replaces=('kdebase-bin<4.0.0' 'kdelibs<3.5.10')
-conflicts=('kde-cli-tools')
+
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 

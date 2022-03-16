@@ -19,7 +19,7 @@ optdepends=('kdebase'
             'xterm'
             'x-terminal-emulator'
             'x-window-manager')
-provides=('x-display-manager')
+
 replaces=('kdebase-workspace-data<4.0.1' 'kdm-kde4')
 backup=('etc/init.d/kdm' 'etc/kde4/kdm/backgroundrc' 'etc/kde4/kdm/kdm.options' 'etc/kde4/kdm/kdmrc' 'etc/kde4/kdm/README' 'etc/kde4/kdm/Xaccess' 'etc/kde4/kdm/Xreset' 'etc/kde4/kdm/Xsession' 'etc/kde4/kdm/Xsetup' 'etc/kde4/kdm/Xstartup' 'etc/kde4/kdm/Xwilling' 'etc/logrotate.d/kdm' 'etc/pam.d/kdm' 'etc/pam.d/kdm-np')
 options=('!strip' '!emptydirs')

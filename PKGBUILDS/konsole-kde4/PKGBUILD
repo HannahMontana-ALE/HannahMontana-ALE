@@ -10,11 +10,11 @@ url="http://www.kde.org"
 license=('custom')
 groups=('')
 
-provides=('x-terminal-emulator')
+
 replaces=('konsole-kde4')
 options=('!strip' '!emptydirs')
-provides=('konsole')
-conflicts=('konsole')
+
+
 install=konsole.install
 
 source_x86_64=("konsole_4%3a4.2.2-0ubuntu4_amd64.deb")

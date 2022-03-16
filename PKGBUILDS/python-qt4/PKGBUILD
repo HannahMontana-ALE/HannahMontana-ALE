@@ -10,7 +10,7 @@ url="http://www.riverbankcomputing.co.uk/software/pyqt"
 license=('custom')
 groups=('')
 
-provides=('python2')
+
 replaces=('python<4.4.4')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

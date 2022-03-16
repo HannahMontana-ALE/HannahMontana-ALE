@@ -10,7 +10,7 @@ url="http://phonon.kde.org"
 license=('custom')
 groups=('')
 
-provides=('phonon-backend')
+
 replaces=('kdebase-runtime<4.0.98' 'kdebase-runtime-data<4.0.98' 'kde-icons-oxygen<4.1.73')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

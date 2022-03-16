@@ -10,7 +10,7 @@ url="http://www.kde.org"
 license=('custom')
 groups=('')
 
-provides=('pdf-viewer')
+
 replaces=('okular-kde4')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

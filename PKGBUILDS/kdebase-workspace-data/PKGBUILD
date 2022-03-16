@@ -10,7 +10,7 @@ url="http://www.kde.org"
 license=('custom')
 groups=('')
 replaces=('kdebase-bin<4.0.0' 'kdebase-data<4.0.0' 'kdebase-runtime-data<4.0.98' 'kdebase-workspace-wallpapers<4.1.96' 'kde-window-manager<=4.1.73' 'kmenuedit' 'ksmserver' 'ktip' 'libkorundum4-ruby1.8<4.1.80' 'powerdevil')
-conflicts=('plasma-workspace' 'kscreenlocker')
+
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 source=("kdebase-workspace-data_4%3a4.2.2-0ubuntu2.1_all.deb")

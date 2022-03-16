@@ -12,8 +12,8 @@ groups=('')
 
 replaces=('ksysguard-kde4')
 options=('!strip' '!emptydirs')
-provides=('ksysguard')
-conflicts=('ksysguard')
+
+
 install=ksysguard.install
 
 

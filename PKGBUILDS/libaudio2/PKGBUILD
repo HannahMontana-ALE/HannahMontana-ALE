@@ -11,7 +11,7 @@ license=('custom')
 groups=('')
 
 optdepends=('nas')
-provides=('nas')
+
 replaces=('nas')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
