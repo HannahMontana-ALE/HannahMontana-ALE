@@ -10,10 +10,7 @@ url="http://delta.affinix.com/qca"
 license=('custom')
 groups=('')
 
-optdepends=('libqca2-plugin-cyrus-sasl'
-            'libqca2-plugin-gnupg'
-            'libqca2-plugin-ossl'
-            'libqca2-plugin-pkcs11')
+
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 

@@ -10,7 +10,7 @@ url="http://www.kde.org"
 license=('custom')
 groups=('')
 
-optdepends=('kfind')
+
 replaces=('dolphin-kde4')
 options=('!strip' '!emptydirs')
 

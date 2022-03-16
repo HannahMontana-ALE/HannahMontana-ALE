@@ -9,7 +9,7 @@ arch=('any')
 url="http://www.kde.org"
 license=('custom')
 groups=('')
-optdepends=('khelpcenter')
+
 replaces=('kdebase-bin<4.0.0' 'kdebase-data<4.0.0')
 #
 options=('!strip' '!emptydirs')

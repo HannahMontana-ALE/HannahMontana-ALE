@@ -10,12 +10,7 @@ url="http://www.kde.org"
 license=('custom')
 groups=('')
 
-optdepends=('anaconda'
-            'ncompress'
-            'p7zip'
-            'unzip'
-            'zip'
-            'zoo')
+
 replaces=('ark-kde4')
 options=('!strip' '!emptydirs')
 

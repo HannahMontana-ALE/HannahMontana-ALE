@@ -10,11 +10,6 @@ url="http://www.xine-project.org"
 license=('custom')
 groups=('')
 
-optdepends=('gxine'
-            'libxine1-doc'
-            'libxine1-ffmpeg'
-            'libxine-doc'
-            'xine-ui')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 

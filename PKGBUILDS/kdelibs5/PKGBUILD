@@ -10,7 +10,7 @@ url="http://www.kde.org"
 license=('custom')
 groups=('')
 
-optdepends=('ttf-dejavu')
+
 replaces=('kio')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

@@ -10,7 +10,7 @@ url="http://www.exiv2.org"
 license=('custom')
 groups=('')
 
-optdepends=('exiv2')
+
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 

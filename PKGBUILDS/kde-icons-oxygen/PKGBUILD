@@ -9,7 +9,7 @@ arch=('any')
 url="http://www.kde.org"
 license=('custom')
 groups=('')
-optdepends=('kdebase>=4.1.0')
+
 replaces=('dolphin<4.1.96' 'kdebase-data<=4.0.0' 'koffice-data-kde4<1.9.98.5' 'libkdepim<4.0.98')
 options=('!strip' '!emptydirs')
 source=("kde-icons-oxygen_4%3a4.2.2-0ubuntu1.1_all.deb")

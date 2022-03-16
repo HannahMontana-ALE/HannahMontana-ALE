@@ -10,7 +10,7 @@ url="http://www.trolltech.com"
 license=('custom')
 groups=('')
 
-optdepends=('qt4')
+
 replaces=('qt4<4.0.1')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

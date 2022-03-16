@@ -10,7 +10,7 @@ url="http://www.kde.org"
 license=('custom')
 groups=('')
 
-optdepends=('lame')
+
 replaces=('kdemultimedia-kio-plugins-kde4')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install

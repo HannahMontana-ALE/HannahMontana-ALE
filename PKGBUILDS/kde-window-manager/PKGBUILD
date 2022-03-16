@@ -10,7 +10,7 @@ url="http://www.kde.org"
 license=('custom')
 groups=('')
 
-optdepends=('compiz')
+
 
 
 replaces=('kdebase-workspace-data<4.1.80' 'kwin<4.0.98')

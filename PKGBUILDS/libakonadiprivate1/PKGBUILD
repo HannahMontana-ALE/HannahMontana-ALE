@@ -10,7 +10,7 @@ url="http://pim.kde.org/akonadi"
 license=('custom')
 groups=('')
 
-optdepends=('akonadi')
+
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 

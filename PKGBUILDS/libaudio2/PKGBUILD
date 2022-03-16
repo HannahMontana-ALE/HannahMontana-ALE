@@ -10,7 +10,7 @@ url=""
 license=('custom')
 groups=('')
 
-optdepends=('nas')
+
 
 replaces=('nas')
 options=('!strip' '!emptydirs')

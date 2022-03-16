@@ -10,9 +10,6 @@ url="http://phonon.kde.org"
 license=('custom')
 groups=('')
 
-optdepends=('phonon-backend-mplayer'
-            'phonon-backend-vlc'
-            'phonon-backend-xine')
 options=('!strip' '!emptydirs')
 source=("phonon_4%3a4.3.1-0ubuntu3_all.deb")
 sha512sums=('c07609568a9fe78a97f9871f658c5c54135d9455052119793e6c51a6ece2d761d05acc2eea04d5e16b51808be7d4b7c931ae584240632fe6a01d685ef575f87a')

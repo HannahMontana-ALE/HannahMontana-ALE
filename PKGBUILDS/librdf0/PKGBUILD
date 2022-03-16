@@ -10,7 +10,7 @@ url="http://librdf.org"
 license=('custom')
 groups=('')
 
-optdepends=('redland')
+
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 

@@ -10,12 +10,6 @@ url="http://www.trolltech.com"
 license=('custom')
 groups=('')
 
-optdepends=('libqt4-sql-mysql'
-            'libqt4-sql-odbc'
-            'libqt4-sql-psql'
-            'libqt4-sql-sqlite'
-            'libqt4-sql-sqlite2'
-            'qt4')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 
