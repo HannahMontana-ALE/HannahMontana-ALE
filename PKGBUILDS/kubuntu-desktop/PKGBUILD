@@ -95,9 +95,8 @@ optdepends=('acpi'
             'update-notifier'
             'xcursor-themes'
             'xdg-utils')
-provides=('kubuntu-kde4-desktop' 'plasma')
 replaces=('kubuntu-kde4-desktop')
-conflicts=('plasma')
+conflicts=('plasma-desktop')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 
