@@ -16,7 +16,6 @@ optdepends=('dontzap'
 replaces=('kcontrol' 'kdebase-bin<4.0.0' 'kmenuedit' 'ktip' 'libplasma' 'powerdevil')
 backup=('etc/pam.d/kcheckpass' 'etc/pam.d/kscreensaver')
 options=('!strip' '!emptydirs')
-provides=('plasma-workspace')
 conflicts=('plasma-workspace')
 install=${pkgname}.install
 
