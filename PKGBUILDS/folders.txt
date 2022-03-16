@@ -97,4 +97,3 @@
 /home/michael/Documents/GitHub/hannahmontana-arch/PKGBUILDS/konsole-kde4
 /home/michael/Documents/GitHub/hannahmontana-arch/PKGBUILDS/kmix-kde4
 /home/michael/Documents/GitHub/hannahmontana-arch/PKGBUILDS/ksysguard-kde4
-/home/michael/Documents/GitHub/hannahmontana-arch/PKGBUILDS/kubuntu-desktop
