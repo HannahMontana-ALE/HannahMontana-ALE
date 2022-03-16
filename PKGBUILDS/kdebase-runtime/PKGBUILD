@@ -11,6 +11,7 @@ license=('custom')
 groups=('')
 
 replaces=('kdebase-bin<4.0.0' 'kdelibs<3.5.10')
+conflicts=('kde-cli-tools')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
 
@@ -24,5 +25,6 @@ package(){
 	tar xzf data.tar.gz -C "${pkgdir}"
 
 	install -D -m644 "${pkgdir}/usr/share/doc/kdebase-runtime/copyright" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+	rm "${pkgdir}/usr/lib/kde4/libexec/kdesu"
 
 }

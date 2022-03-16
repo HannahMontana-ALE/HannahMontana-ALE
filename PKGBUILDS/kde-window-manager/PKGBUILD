@@ -11,7 +11,8 @@ license=('custom')
 groups=('')
 
 optdepends=('compiz')
-provides=('x-window-manager')
+provides=('kwin')
+conflicts=('kwin')
 replaces=('kdebase-workspace-data<4.1.80' 'kwin<4.0.98')
 options=('!strip' '!emptydirs')
 install=${pkgname}.install
