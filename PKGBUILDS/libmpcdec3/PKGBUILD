@@ -11,7 +11,7 @@ license=('custom')
 groups=('')
 
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("libmpcdec3_1.2.2-1build1_amd64.deb")
 

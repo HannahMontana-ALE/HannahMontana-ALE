@@ -10,9 +10,9 @@ url="http://dev.mysql.com"
 license=('custom')
 groups=('')
 
-replaces=('libmysqlclient' 'mysql<5.0.56')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("libmysqlclient15off_5.1.30really5.0.75-0ubuntu10.5_amd64.deb")
 

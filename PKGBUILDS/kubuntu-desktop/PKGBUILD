@@ -10,9 +10,9 @@ url=""
 license=('custom')
 groups=('')
 depends=('hmontana-themes-kde4' 'kde-icons-oxygen' 'kde-zeroconf' 'kdebase-runtime-data' 'kdebase-runtime-data-common' 'kdebase-workspace-data' 'kdebase-workspace-libs4+5' 'kdelibs5' 'kdelibs5-data' 'kdemultimedia-kio-plugins' 'kdepimlibs-data' 'kdepimlibs5' 'kubuntu-artwork-usplash' 'libakonadiprivate1' 'libaudio2' 'libboost-program-options1.35.0' 'libclucene0ldbl' 'libeet1' 'libexiv2-5' 'libkcddb4' 'libkdecorations4' 'libkonq5' 'libkonq5-templates' 'libkwineffects1' 'libmodplug0c2' 'libmpcdec3' 'libmysqlclient15off' 'libokularcore1' 'libphonon4' 'libplasma3' 'libpoppler-qt4-3' 'libpq5' 'libqedje0' 'libqimageblitz4' 'libqt4-assistant' 'libqt4-designer' 'libqt4-help' 'libqt4-network' 'libqt4-opengl' 'libqt4-qt3support' 'libqt4-script' 'libqt4-sql' 'libqt4-svg' 'libqt4-test' 'libqt4-webkit' 'libqt4-xml' 'libqt4-xmlpatterns' 'libqtcore4' 'libqtgui4' 'libqzion0' 'libraptor1' 'librasqal1' 'librdf0' 'libsoprano4' 'libstreamanalyzer0' 'libstreams0' 'libstrigiqtdbusclient0' 'libxine1' 'libxine1-console' 'libxine1-misc-plugins' 'libxine1-x' 'libzip1' 'mysql-common' 'phonon-qt4' 'phonon-backend-xine' 'python-kde4' 'python-qt4' 'python-qt4-common' 'python-sip4' 'libxine1-bin' 'gdebi-kde' 'install-package' 'kdebase-runtime' 'kdepasswd' 'kdesudo' 'kde-window-manager' 'kdm' 'khelpcenter4' 'klipper' 'ksnapshot' 'ksystemlog' 'kuser' 'language-selector-qt' 'libqca2' 'libqt4-dbus' 'okular' 'software-properties-kde' 'soprano-daemon' 'systemsettings' 'kdebase-workspace-bin' 'kdelibs-bin' 'kdebase-runtime-bin-kde4' 'ark-kde4' 'dolphin-kde4' 'dragonplayer' 'konsole-kde4' 'kmix-kde4' 'ksysguard-kde4')
-replaces=('kubuntu-kde4-desktop')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("kubuntu-desktop_1.122_amd64.deb")
 

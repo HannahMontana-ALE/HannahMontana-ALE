@@ -10,9 +10,9 @@ url="http://www.xine-project.org"
 license=('custom')
 groups=('')
 
-replaces=('libxine1<1.1.8')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("libxine1-console_1.1.16.3-0ubuntu1_amd64.deb")
 

@@ -10,9 +10,9 @@ url="http://www.kde.org"
 license=('custom')
 groups=('')
 
-replaces=('kde-zeroconf-kde4')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("kde-zeroconf_4%3a4.2.2-0ubuntu2.3_amd64.deb")
 

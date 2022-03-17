@@ -11,7 +11,7 @@ license=('custom')
 groups=('')
 
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("libpq5_8.3.12-0ubuntu9.04_amd64.deb")
 

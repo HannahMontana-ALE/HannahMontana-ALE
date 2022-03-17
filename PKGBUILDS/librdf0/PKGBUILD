@@ -12,7 +12,7 @@ groups=('')
 
 
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("librdf0_1.0.8-1_amd64.deb")
 

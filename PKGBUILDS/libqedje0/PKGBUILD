@@ -11,7 +11,7 @@ license=('custom')
 groups=('')
 
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("libqedje0_0.3.0-0ubuntu1_amd64.deb")
 

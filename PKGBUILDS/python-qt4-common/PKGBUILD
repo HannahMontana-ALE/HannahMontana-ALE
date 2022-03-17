@@ -11,7 +11,7 @@ license=('custom')
 groups=('')
 
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 source=("python-qt4-common_4.4.4-2ubuntu6_all.deb")
 sha512sums=('e1b034076d128525c13fea02c0f4612f2e75379b00b6b7234d13b2d55a51f29c70b5a179c4abcef27604992ffaa229e73d0b79ab1f4a66abed9acbfd34c87ab2')
 

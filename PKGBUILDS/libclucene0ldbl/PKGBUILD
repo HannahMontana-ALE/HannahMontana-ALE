@@ -10,9 +10,9 @@ url="http://clucene.sourceforge.net"
 license=('custom')
 groups=('')
 
-replaces=('clucene<0.9.16a')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("libclucene0ldbl_0.9.20-3_amd64.deb")
 

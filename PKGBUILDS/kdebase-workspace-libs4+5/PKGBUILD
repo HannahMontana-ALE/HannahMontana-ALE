@@ -10,9 +10,9 @@ url="http://www.kde.org"
 license=('custom')
 groups=('')
 
-replaces=('kdebase-workspace-bin<4.1.80' 'ksysguard<=4.0.72' 'libplasma')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("kdebase-workspace-libs4+5_4%3a4.2.2-0ubuntu2.1_amd64.deb")
 

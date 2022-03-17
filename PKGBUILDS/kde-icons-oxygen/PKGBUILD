@@ -10,7 +10,7 @@ url="http://www.kde.org"
 license=('custom')
 groups=('')
 
-replaces=('dolphin<4.1.96' 'kdebase-data<=4.0.0' 'koffice-data-kde4<1.9.98.5' 'libkdepim<4.0.98')
+
 options=('!strip' '!emptydirs')
 source=("kde-icons-oxygen_4%3a4.2.2-0ubuntu1.1_all.deb")
 sha512sums=('fba9f0c06c80c3d7076a91249b0ac0abff6a82933dc947c551745d878ce278c47b1810343aa7e2b8941940df4fc52b34bf776a661bd0aec7781e2098026d02ed')

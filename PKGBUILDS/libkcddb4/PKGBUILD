@@ -10,9 +10,9 @@ url="http://www.kde.org"
 license=('custom')
 groups=('')
 
-replaces=('libkcddb')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("libkcddb4_4%3a4.2.2-0ubuntu2_amd64.deb")
 

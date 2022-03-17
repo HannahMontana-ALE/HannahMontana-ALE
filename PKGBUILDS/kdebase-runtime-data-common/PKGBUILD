@@ -10,7 +10,7 @@ url="http://www.kde.org"
 license=('custom')
 groups=('')
 
-replaces=('kdebase-bin<4.0.0' 'kdebase-data<4.0.0')
+
 #
 options=('!strip' '!emptydirs')
 source=("kdebase-runtime-data-common_4%3a4.2.2-0ubuntu1.1_all.deb")

@@ -11,11 +11,11 @@ license=('custom')
 groups=('')
 
 
-replaces=('ark-kde4')
+
 options=('!strip' '!emptydirs')
 
 
-install=ark.install
+
 
 source_x86_64=("ark_4%3a4.2.2-0ubuntu2_amd64.deb")
 

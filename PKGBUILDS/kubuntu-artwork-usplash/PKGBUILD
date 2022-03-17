@@ -12,7 +12,7 @@ groups=('')
 
 
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("kubuntu-artwork-usplash_1%3a9.04.26_amd64.deb")
 

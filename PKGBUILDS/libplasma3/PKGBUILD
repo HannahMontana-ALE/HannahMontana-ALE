@@ -10,9 +10,9 @@ url="http://www.kde.org"
 license=('custom')
 groups=('')
 
-replaces=('kdebase-workspace-data<4.1.73' 'libplasma')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("libplasma3_4%3a4.2.2-0ubuntu5.4_amd64.deb")
 

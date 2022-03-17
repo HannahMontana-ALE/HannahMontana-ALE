@@ -10,9 +10,9 @@ url="https://launchpad.net/kdesudo"
 license=('custom')
 groups=('')
 
-replaces=('kdesudo-kde4')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("kdesudo_3.4.1-0ubuntu1_amd64.deb")
 

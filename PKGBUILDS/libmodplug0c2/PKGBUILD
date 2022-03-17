@@ -10,9 +10,9 @@ url="http://modplug-xmms.sourceforge.net"
 license=('custom')
 groups=('')
 
-replaces=('libmodplug' 'xmms-modplug<2.04')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("libmodplug0c2_1%3a0.8.4-3ubuntu1.1_amd64.deb")
 

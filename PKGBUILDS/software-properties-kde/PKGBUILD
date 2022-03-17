@@ -11,7 +11,7 @@ license=('custom')
 groups=('')
 
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 source=("software-properties-kde_0.71.5_all.deb")
 sha512sums=('00f125a437bd24ba36917a049c9c9f9fe601d8b057ba7b77587de2cd233c43a0f0f489bc59a724f54342c1c1b0b44af3e490db45adcb44426d77a96dca9b184b')
 

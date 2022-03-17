@@ -11,9 +11,9 @@ license=('custom')
 groups=('')
 
 
-replaces=('python<4.4.4')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("python-qt4_4.4.4-2ubuntu6_amd64.deb")
 

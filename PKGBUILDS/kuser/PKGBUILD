@@ -11,9 +11,9 @@ license=('custom')
 groups=('')
 
 
-replaces=('kuser-kde4')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("kuser_4%3a4.2.2-0ubuntu2_amd64.deb")
 

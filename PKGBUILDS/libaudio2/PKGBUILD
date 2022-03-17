@@ -12,9 +12,9 @@ groups=('')
 
 
 
-replaces=('nas')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("libaudio2_1.9.1-5_amd64.deb")
 

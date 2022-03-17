@@ -10,9 +10,9 @@ url="http://phonon.kde.org"
 license=('custom')
 groups=('')
 
-replaces=('kdelibs<=4.0.80')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("libphonon4_4%3a4.3.1-0ubuntu3_amd64.deb")
 

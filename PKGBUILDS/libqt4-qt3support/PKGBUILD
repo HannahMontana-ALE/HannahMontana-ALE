@@ -10,9 +10,9 @@ url="http://www.trolltech.com"
 license=('custom')
 groups=('')
 
-replaces=('qt4<4.2.1')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("libqt4-qt3support_4.5.0-0ubuntu4.3_amd64.deb")
 

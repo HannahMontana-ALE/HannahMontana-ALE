@@ -11,9 +11,9 @@ license=('custom')
 groups=('')
 
 
-replaces=('kdebase-bin<4.0.0' 'kdebase-bin-kde3')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("kdebase-runtime-bin-kde4_4%3a4.2.2-0ubuntu1.1_amd64.deb")
 

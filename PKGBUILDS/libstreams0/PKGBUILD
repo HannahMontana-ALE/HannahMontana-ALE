@@ -10,9 +10,9 @@ url="http://strigi.sourceforge.net"
 license=('custom')
 groups=('')
 
-replaces=('strigi<0.3.11')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("libstreams0_0.6.4-0ubuntu2_amd64.deb")
 

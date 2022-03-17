@@ -11,7 +11,7 @@ license=('custom')
 groups=('')
 
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 source=("gdebi-kde_0.4.9_all.deb")
 sha512sums=('c55aba042eb6fcf56b9112b7af04350befe4d83aa59f7444230f02e3575c5dc44f29075737bb38150f2dac5916a7f0ad612656f42af980693fc338d236bd0fb3')
 

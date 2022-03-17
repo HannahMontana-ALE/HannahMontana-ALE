@@ -10,10 +10,10 @@ url="http://www.kde.org"
 license=('custom')
 groups=('')
 
-replaces=('kdelibs<3.5.10.1')
+
 backup=('etc/xdg/menus/kde4-applications.menu')
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 source=("kdelibs5-data_4%3a4.2.2-0ubuntu5.4_all.deb")
 sha512sums=('f27212030153877f7a6e8b763b68c5bf7d46bbaec8dc9ee2864cba98847b785c04f9b1e291c028e697fe3c90be757c055276d97e3e5caba56ba7daa3173f5c14')
 

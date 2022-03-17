@@ -11,7 +11,7 @@ license=('custom')
 groups=('')
 
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("libstrigiqtdbusclient0_0.6.4-0ubuntu2_amd64.deb")
 

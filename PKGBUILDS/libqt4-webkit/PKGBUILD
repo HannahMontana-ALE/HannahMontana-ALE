@@ -11,7 +11,7 @@ license=('custom')
 groups=('')
 
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("libqt4-webkit_4.5.0-0ubuntu4.3_amd64.deb")
 

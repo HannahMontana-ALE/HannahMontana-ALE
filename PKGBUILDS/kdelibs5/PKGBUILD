@@ -11,9 +11,9 @@ license=('custom')
 groups=('')
 
 
-replaces=('kio')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("kdelibs5_4%3a4.2.2-0ubuntu5.4_amd64.deb")
 

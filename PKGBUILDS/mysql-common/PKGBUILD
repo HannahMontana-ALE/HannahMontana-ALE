@@ -11,7 +11,7 @@ license=('custom')
 groups=('')
 backup=('etc/mysql/my.cnf')
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 source=("mysql-common_5.1.30really5.0.75-0ubuntu10.5_all.deb")
 sha512sums=('e3fa91650e9eacaa90d56386aa41b6905e183be3d97503773680ab9fa11f30f4cb7d770790ef9d620eda81d70121a07c421d9b792e24d92d21a3f880616f17f9')
 

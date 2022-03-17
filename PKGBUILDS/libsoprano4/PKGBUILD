@@ -10,9 +10,9 @@ url="http://soprano.sourceforge.net"
 license=('custom')
 groups=('')
 
-replaces=('libsoprano3')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("libsoprano4_2.2.2+dfsg.1-1ubuntu1_amd64.deb")
 

@@ -10,9 +10,9 @@ url="http://www.kde.org"
 license=('custom')
 groups=('')
 
-replaces=('kdelibs<=4.1.73')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("kdelibs-bin_4%3a4.2.2-0ubuntu5.4_amd64.deb")
 

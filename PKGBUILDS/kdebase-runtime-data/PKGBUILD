@@ -10,10 +10,10 @@ url="http://www.kde.org"
 license=('custom')
 groups=('')
 
-replaces=('drkonqi' 'kdebase-bin<=3.5.8.1' 'kdebase-data<4.0.0' 'kdebase-workspace-data<4.1.96' 'kdelibs<4.1.73')
+
 backup=('etc/xdg/menus/kde-information.menu')
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 source=("kdebase-runtime-data_4%3a4.2.2-0ubuntu1.1_all.deb")
 sha512sums=('5ccf269a84dc222ce75da276edeb7a46a7092741ec7ba6c48d1566a377353ea74920027a58cb05b24046e5ca6eaf68994f6c6c92a8a69e27d3336f21774a9231')
 

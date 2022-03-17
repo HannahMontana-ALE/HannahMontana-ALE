@@ -11,9 +11,9 @@ license=('custom')
 groups=('')
 
 
-replaces=('kdebase-runtime<4.0.98' 'kdebase-runtime-data<4.0.98' 'kde-icons-oxygen<4.1.73')
+
 options=('!strip' '!emptydirs')
-install=${pkgname}.install
+
 
 source_x86_64=("phonon-backend-xine_4%3a4.3.1-0ubuntu3_amd64.deb")
 
