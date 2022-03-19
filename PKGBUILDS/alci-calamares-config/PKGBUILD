@@ -1,0 +1,24 @@
+# Maintainer: Erik Dubois <erik.dubois@gmail.com>
+pkgname=alci-calamares-config-hmontana
+_pkgname=alci-calamares-config
+_destname1="/etc"
+pkgver=22.03
+pkgrel=02
+pkgdesc="calamares for ALCI"
+arch=('any')
+url="https://github.com/arch-linux-calamares-installer"
+license=('GPL3')
+makedepends=('git')
+depends=()
+conflicts=('alci-calamares-config-dev' 'alci-calamares-config-pure' 'alci-calamares-config-btrfs')
+provides=("${_pkgname}")
+options=(!strip !emptydirs)
+source=(${_pkgname}::"git+${url}/${_pkgname}"
+	'packages.conf')
+sha256sums=('SKIP'
+	'SKIP')
+package() {
+	install -dm755 ${pkgdir}${_destname1}
+	cp -r ${srcdir}/${_pkgname}${_destname1}/* ${pkgdir}${_destname1}
+	cp -f ${srcdir}/packages.conf ${pkgdir}${_destname1}/calamares/modules/packages.conf
+}
