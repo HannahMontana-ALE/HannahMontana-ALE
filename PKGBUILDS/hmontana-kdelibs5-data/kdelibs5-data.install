@@ -1,0 +1,61 @@
+pre_install() {
+
+
+	# Remove a no-longer used conffile.
+	# Taken from http://wiki.debian.org/DpkgConffileHandling
+	rm_conffile() {
+	    _pkgname="$1"
+	    CONFFILE="$2"
+	    if [ -e "$CONFFILE" ]; then
+	        md5sum="`md5sum \"$CONFFILE\" | sed -e \"s/ .*//\"`"
+	        old_md5sum="`dpkg-query -W -f='${Conffiles}' $PKGNAME | sed -n -e \"\\\\' $CONFFILE '{s/ obsolete$//;s/.* //p}\"`"
+	        if [ "$md5sum" != "$old_md5sum" ]; then
+	            echo "Obsolete conffile $CONFFILE has been modified by you."
+	            echo "Saving as $CONFFILE.dpkg-bak ..."
+	            mv -f "$CONFFILE" "$CONFFILE".dpkg-bak
+	        else
+	            echo "Removing obsolete conffile $CONFFILE ..."
+	            rm -f "$CONFFILE"
+	        fi
+	    fi
+	}
+
+	    if dpkg --compare-versions "$2" le "4:4.0.80-1"; then
+		rm_conffile kdelibs5-data /etc/kde4/kdebug.areas
+		rm_conffile kdelibs5-data /etc/kde4/colors/Web.colors
+		rm_conffile kdelibs5-data /etc/kde4/colors/Oxygen.colors
+		rm_conffile kdelibs5-data /etc/kde4/colors/Rainbow.colors
+		rm_conffile kdelibs5-data /etc/kde4/colors/40.colors
+		rm_conffile kdelibs5-data /etc/kde4/colors/Royal.colors
+		rm_conffile kdelibs5-data /etc/kde4/kdebugrc
+		rm_conffile kdelibs5-data /etc/kde4/ui/ui_standards.rc
+		rm_conffile kdelibs5-data /etc/kde4/accept-languages.codes
+		rm_conffile kdelibs5-data /etc/kde4/ksslcalist
+		rm_conffile kdelibs5-data /etc/kde4/kdxspreviewrc
+		rm_conffile kdelibs5-data /etc/kde4/ui/kprintpreviewui.rc
+		rm_conffile kdelibs5-data /etc/kde4/kdeprintrc
+	    fi
+
+
+
+}
+
+post_install() {
+	if [ -x "`which update-mime-database 2>/dev/null`" ]; then
+		update-mime-database /usr/share/mime
+	fi
+}
+
+pre_upgrade() {
+	pre_install
+}
+
+post_upgrade() {
+	post_install
+}
+
+post_remove() {
+	if [ -x "`which update-mime-database 2>/dev/null`" ]; then
+		update-mime-database /usr/share/mime
+	fi
+}

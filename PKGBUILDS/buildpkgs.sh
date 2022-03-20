@@ -10,6 +10,8 @@ do cd $line && makepkg -d && mv ./*.pkg.tar.zst ../ && rm -r ./src && rm -r ./pk
 done < ./folders.txt
 
 cd ../
+#specific for alci-config
+rm ./alci-calamares-config-hmontana/alci-calamares-config
 cd ../
 mv ./PKGBUILDS/*.pkg.tar.zst ./repo/
 rm ./PKGBUILDS/folders.txt

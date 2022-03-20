@@ -1,0 +1,17 @@
+# Maintainer: Michael Monaco <thepoorpilot@gmail.com>
+
+pkgname=hmontana-themes-kde4
+_pkgname=themes-kde4
+pkgver=1.0
+pkgrel=1
+pkgdesc='Hannah Montana Linux Kubuntu 9.04 themes'
+arch=('any')
+url='http://hannahmontana.sourceforge.net/'
+
+source=('hmontana-themes-kde4.tar.gz')
+sha256sums=('SKIP')
+
+package() {
+    cd "${srcdir}"
+    mv "./usr/" "${pkgdir}"
+}
