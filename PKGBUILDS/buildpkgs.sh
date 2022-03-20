@@ -6,7 +6,7 @@ find "$(cd .; pwd)" -maxdepth 1 -type d > folders.txt
 
 mapfile -t myArray < ./folders.txt
 while IFS= read -r line;
-do cd $line && makepkg -d && mv ./*.pkg.tar.zst ../ && rm -r ./src && rm -r ./pkg;
+do cd $line && makepkg -c && mv ./*.pkg.tar.zst ../;
 done < ./folders.txt
 
 cd ../

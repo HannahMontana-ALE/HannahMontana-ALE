@@ -23,7 +23,6 @@ package(){
 	# Extract package data
 	tar xf data.tar.lzma -C "${pkgdir}"
 
-	install -D -m644 "/usr/share/kde4/apps/LICENSES" "${pkgdir}/usr/share/licenses/${_pkgname}/LICENSE"
 	install -D -m644 "${pkgdir}/usr/share/doc/kdelibs5-data/copyright" "${pkgdir}/usr/share/licenses/${_pkgname}/COPYRIGHT"
 
 }
