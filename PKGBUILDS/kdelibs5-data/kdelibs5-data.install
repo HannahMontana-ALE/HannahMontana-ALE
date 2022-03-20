@@ -4,7 +4,7 @@ pre_install() {
 	# Remove a no-longer used conffile.
 	# Taken from http://wiki.debian.org/DpkgConffileHandling
 	rm_conffile() {
-	    PKGNAME="$1"
+	    pkgname=hmontana-"$1"
 	    CONFFILE="$2"
 	    if [ -e "$CONFFILE" ]; then
 	        md5sum="`md5sum \"$CONFFILE\" | sed -e \"s/ .*//\"`"
