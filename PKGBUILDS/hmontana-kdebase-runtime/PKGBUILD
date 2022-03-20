@@ -23,7 +23,7 @@ package(){
 
 	# Extract package data
 	tar xzf data.tar.gz -C "${pkgdir}"
-
+	rm -r "${pkgdir}/usr/lib/kde4/libexec/kdesu"
 	install -D -m644 "${pkgdir}/usr/share/doc/kdebase-runtime/copyright" "${pkgdir}/usr/share/licenses/${_pkgname}/LICENSE"
 
 }
