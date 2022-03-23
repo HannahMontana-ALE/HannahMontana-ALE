@@ -1,0 +1,16 @@
+# Maintainer: Michael Monaco <thepoorpilot@gmail.com>
+
+pkgname=hmontana-kde4-config
+pkgver=1.0
+pkgrel=1
+pkgdesc='Hannah Montana Linux config'
+arch=('any')
+url='http://hannahmontana.sourceforge.net/'
+
+source=('hmontana-kde4-config.tar.gz')
+sha256sums=('SKIP')
+
+package() {
+    cd "${srcdir}"
+    mv "./usr/" "${pkgdir}"
+}
