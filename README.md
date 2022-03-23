@@ -11,4 +11,4 @@ The prophecy has fortold of something rising from the ashes to replace Arch, but
 
 Finally, the world may be graced again by Hannah Montana Linux, but this time forever! Using Arch Linux's rolling release model, Hannah Montana Linux can run forever!
 
-#Offical long name: Hannah Montana Arch(btw) GNU/Linux Edition
+# Offical long name: Hannah Montana Arch(btw) GNU/Linux Edition
