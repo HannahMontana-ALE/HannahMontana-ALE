@@ -12,5 +12,5 @@ sha256sums=('SKIP')
 
 package() {
     cd "${srcdir}"
-    mv "./usr/" "${pkgdir}"
+    mv "./etc/" "${pkgdir}"
 }
