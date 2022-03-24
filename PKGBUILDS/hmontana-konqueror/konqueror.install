@@ -1,0 +1,23 @@
+post_install() {
+	xdg-icon-resource forceupdate --theme hicolor &> /dev/null
+
+	if [ "$1" = "configure" ] ; then
+			/usr/bin/konqueror 45
+	fi
+	update-desktop-database -q
+}
+
+post_upgrade() {
+	post_install
+}
+
+post_remove() {
+	xdg-icon-resource forceupdate --theme hicolor &> /dev/null
+	if [ "$1" = "remove" ]; then
+		ldconfig
+	fi
+	if which update-desktop-database >/dev/null 2>&1 ; then
+		update-desktop-database -q
+	fi
+	update-desktop-database -q
+}
