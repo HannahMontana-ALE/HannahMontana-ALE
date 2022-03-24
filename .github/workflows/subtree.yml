@@ -26,7 +26,7 @@ jobs:
         run: |
           git config --global user.name "ThePoorPilot"
           git config --global user.email "78394939+ThePoorPilot@users.noreply.github.com"
-          git clone https://github.com/ThePoorPilot/HannahMontana-AE.git
-          cd HannahMontana-AE
+          git clone https://github.com/ThePoorPilot/HannahMontana-ALE.git
+          cd HannahMontana-ALE
           git subtree pull --prefix isobuild https://github.com/ThePoorPilot/alci-hmontana.git master --squash
-          git push https://ThePoorPilot:"${{ secrets.TOKEN }}"@github.com/ThePoorPilot/HannahMontana-AE.git
+          git push https://ThePoorPilot:"${{ secrets.TOKEN }}"@github.com/ThePoorPilot/HannahMontana-ALE.git
