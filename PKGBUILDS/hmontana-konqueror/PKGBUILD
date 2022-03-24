@@ -20,5 +20,8 @@ package(){
 	tar xzf data.tar.gz -C "${pkgdir}"
 
 	install -D -m644 "${pkgdir}/usr/share/doc/konqueror/copyright" "${pkgdir}/usr/share/licenses/${_pkgname}/LICENSE"
+	rm "${pkgdir}/usr/bin/kbookmarkmerger"
+	rm "${pkgdir}/usr/bin/keditbookmarks"
+	rm "${pkgdir}/usr/share/man/man1/kbookmarkmerger.1.gz"
 
 }
