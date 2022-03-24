@@ -266,6 +266,7 @@ hmontana-kubuntu-desktop
 #timeshift
 #grub-btrfs
 #timeshift-autosnap
+git
 
 #### audio
 pipewire-media-session
