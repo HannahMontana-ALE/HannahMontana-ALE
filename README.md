@@ -12,3 +12,5 @@ The prophecy has fortold of something rising from the ashes to replace Arch, but
 Finally, the world may be graced again by Hannah Montana Linux, but this time forever! Using Arch Linux's rolling release model, Hannah Montana Linux will achieve it's final form!
 
 ## Offical long name: Hannah Montana Arch(btw) GNU/Linux Edition
+
+Using advanced modern technology (making PKGBUILDS from .deb packages), the beauty of KDE 4.2.2 can grace modern day Arch Linux! Compiling from source was basically impossible
