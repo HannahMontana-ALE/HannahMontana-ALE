@@ -273,7 +273,7 @@ hmontana-kubuntu-desktop
 git
 
 #### audio
-pipewire-media-session
+wireplumber
 pipewire-alsa
 pipewire-pulse
 
