@@ -9,7 +9,7 @@ Times have changed, now an OS exists on the cusp on Hannah Montana Linux's glory
 
 The prophecy has fortold of something rising from the ashes to replace Arch, but instead of extingushing it, it will carry Arch with it to achieve it's final form.
 
-Finally, the world may be graced again by Hannah Montana Linux, but this time forever! Using Arch Linux's rolling release model, Hannah Montana Linux will achieve it's final form!
+Finally, the world may be graced again by Hannah Montana Linux, but this time forever! Using Arch Linux's rolling release model, Hannah Montana Linux will never die!
 
 ## Offical long name: Hannah Montana Arch(btw) GNU/Linux Edition
 
