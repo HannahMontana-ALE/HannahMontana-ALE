@@ -7,7 +7,7 @@ pkgdesc='Hannah Montana Linux config'
 arch=('any')
 url='http://hannahmontana.sourceforge.net/'
 
-source=('hmontana-kde4-config.tar.gz')
+source=('hmontana-kde4-config-old.tar.gz')
 sha256sums=('SKIP')
 
 package() {
