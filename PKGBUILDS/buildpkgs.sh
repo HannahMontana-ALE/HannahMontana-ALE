@@ -4,6 +4,11 @@ rm -r ../repo
 mkdir ../repo
 find "$(cd .; pwd)" -maxdepth 1 -type d > folders.txt
 
+#make sure python2-bin is up to date
+cd ./python2-bin
+git pull
+cd ../
+
 mapfile -t myArray < ./folders.txt
 while IFS= read -r line;
 do cd $line && makepkg -c -d && mv ./*.pkg.tar.zst ../;

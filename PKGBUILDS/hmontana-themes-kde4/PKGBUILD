@@ -8,10 +8,13 @@ pkgdesc='Hannah Montana Linux Kubuntu 9.04 themes'
 arch=('any')
 url='http://hannahmontana.sourceforge.net/'
 
-source=('hmontana-themes-kde4.tar.gz')
-sha256sums=('SKIP')
+source=('hmontana-themes-kde4.tar.gz'
+'hmontana-new.png')
+
+sha256sums=('SKIP'
+'SKIP')
 
 package() {
-    cd "${srcdir}"
-    mv "./usr/" "${pkgdir}"
+    mv "${srcdir}/usr/" "${pkgdir}"
+    install "hmontana-new.png" "${pkgdir}/usr/share/wallpapers/"
 }
