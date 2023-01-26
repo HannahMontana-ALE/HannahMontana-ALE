@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="Hannah-Montana-AE"
+iso_name="Hannah-Montana-ALE"
 iso_label="Hannah-Montana-Arch-Linux_$(date +%Y%m)"
 iso_publisher="Michael Monaco <https://GitHub.com/ThePoorPilot>"
 iso_application="Arch Linux Live/Rescue CD"
