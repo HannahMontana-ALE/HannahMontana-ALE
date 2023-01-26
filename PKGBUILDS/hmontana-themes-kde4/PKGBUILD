@@ -9,22 +9,28 @@ arch=('any')
 url='http://hannahmontana.sourceforge.net/'
 
 source=('hmontana-themes-kde4.tar.gz'
-'hmontana-new.png')
+'hmontana-new.png'
+'background.svg')
 
 sha256sums=('SKIP'
+'SKIP'
 'SKIP')
 
 package() {
     mv "${srcdir}/usr/" "${pkgdir}"
+    #replace old-background with new background
+    mv "${pkgdir}/usr/share/wallpapers/background.svg" "${pkgdir}/usr/share/wallpapers/background-old.svg"
+    install "background.svg" "${pkgdir}/usr/share/wallpapers/"
     install "hmontana-new.png" "${pkgdir}/usr/share/wallpapers/"
-    rm -r ${pkgdir}/usr/share/kde4/apps/ksplash/Themes/hannah_montana/*/background.png
-    #resize for ksplash theme using 16:9 aspect ratio
 
-    magick "hmontana-new.png" -resize 600 "resize_hmontana.png" && mv "resize_hmontana.png" ${pkgdir}/usr/share/kde4/apps/ksplash/Themes/hannah_montana/600x400/background.png
-    magick "hmontana-new.png" -resize 800 "resize_hmontana.png" && mv "resize_hmontana.png" ${pkgdir}/usr/share/kde4/apps/ksplash/Themes/hannah_montana/800x600/background.png
-    magick "hmontana-new.png" -resize 1024 "resize_hmontana.png" && mv "resize_hmontana.png" ${pkgdir}/usr/share/kde4/apps/ksplash/Themes/hannah_montana/1024x768/background.png
-    magick "hmontana-new.png" -resize 1280 "resize_hmontana.png" && mv "resize_hmontana.png" ${pkgdir}/usr/share/kde4/apps/ksplash/Themes/hannah_montana/1280x1024/background.png
-    magick "hmontana-new.png" -resize 1600 "resize_hmontana.png" && mv "resize_hmontana.png" ${pkgdir}/usr/share/kde4/apps/ksplash/Themes/hannah_montana/1600x1200/background.png
-    magick "hmontana-new.png" -resize 1920 "resize_hmontana.png" && mv "resize_hmontana.png" ${pkgdir}/usr/share/kde4/apps/ksplash/Themes/hannah_montana/1920x1200/background.png
+    #resize for ksplash theme using 16:9 aspect ratio
+    rm -r ${pkgdir}/usr/share/kde4/apps/ksplash/Themes/hannah_montana/*/background.png
+
+    magick "hmontana-new.png" -resize 600x400\! "resize_hmontana.png" && mv "resize_hmontana.png" ${pkgdir}/usr/share/kde4/apps/ksplash/Themes/hannah_montana/600x400/background.png
+    magick "hmontana-new.png" -resize 800x600\! "resize_hmontana.png" && mv "resize_hmontana.png" ${pkgdir}/usr/share/kde4/apps/ksplash/Themes/hannah_montana/800x600/background.png
+    magick "hmontana-new.png" -resize 1024x768\! "resize_hmontana.png" && mv "resize_hmontana.png" ${pkgdir}/usr/share/kde4/apps/ksplash/Themes/hannah_montana/1024x768/background.png
+    magick "hmontana-new.png" -resize 1280x1024\! "resize_hmontana.png" && mv "resize_hmontana.png" ${pkgdir}/usr/share/kde4/apps/ksplash/Themes/hannah_montana/1280x1024/background.png
+    magick "hmontana-new.png" -resize 1600x1200\! "resize_hmontana.png" && mv "resize_hmontana.png" ${pkgdir}/usr/share/kde4/apps/ksplash/Themes/hannah_montana/1600x1200/background.png
+    magick "hmontana-new.png" -resize 1920x1200\! "resize_hmontana.png" && mv "resize_hmontana.png" ${pkgdir}/usr/share/kde4/apps/ksplash/Themes/hannah_montana/1920x1200/background.png
 
 }
