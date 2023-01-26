@@ -11,7 +11,7 @@ cd ./PKGBUILDS
 
 mapfile -t myArray < ./folders.txt
 while IFS= read -r line;
-do cd $line && makepkg -c -d && mv ./*.pkg.tar.zst ../;
+do cd $line && makepkg -c -d -f && mv ./*.pkg.tar.zst ../;
 done < ./folders.txt
 
 cd ../
