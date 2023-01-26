@@ -5,9 +5,9 @@ mkdir ../repo
 find "$(cd .; pwd)" -maxdepth 1 -type d > folders.txt
 
 #make sure python2-bin is up to date
-cd ./python2-bin
-git pull
 cd ../
+git subtree pull --prefix PKGBUILDS/python2-bin https://aur.archlinux.org/python2-bin.git master
+cd ./PKGBUILDS
 
 mapfile -t myArray < ./folders.txt
 while IFS= read -r line;
