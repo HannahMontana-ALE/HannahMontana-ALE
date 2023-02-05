@@ -1,4 +1,5 @@
 # Hannah Montana ALE (Arch Linux Edition)
+![Screenshot](https://raw.githubusercontent.com/ThePoorPilot/HannahMontana-ALE/main/Screenshot.png)
 
 Some 13 years ago, the world was graced with a glorious new operating system called Hannah Montana Linux
 Powered by Kubuntu 9.04 and pixie dust, it was the most elegant, sleek, and ergonomic distrobution introduced to the universe!
