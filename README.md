@@ -14,4 +14,4 @@ Finally, the world may be graced again by Hannah Montana Linux, but this time fo
 
 ## Offical long name: Hannah Montana Arch(btw) GNU/Linux Edition
 
-Using advanced modern technology (making PKGBUILDS from .deb packages), the beauty of KDE 4.2.2 can grace modern day Arch Linux! Compiling from source was basically impossible
+Using advanced modern technology (making PKGBUILDS from .deb packages), the beauty of KDE 4.2.2 can grace modern day Arch Linux! Compiling from source was basically impossible. Deb files were extracted by taking apt database files from ubuntu 9.04, importing into a modern instance of apt, and downloading all needed packages for "kubuntu-desktop."
