@@ -14,4 +14,19 @@ Finally, the world may be graced again by Hannah Montana Linux, but this time fo
 
 ## Offical long name: Hannah Montana Arch(btw) GNU/Linux Edition
 
-Using advanced modern technology (making PKGBUILDS from .deb packages), the beauty of KDE 4.2.2 can grace modern day Arch Linux! Compiling from source was basically impossible. Deb files were extracted by taking apt database files from ubuntu 9.04, importing into a modern instance of apt, and downloading all needed packages for "kubuntu-desktop."
+### Current Release: 0.1b
+#### Todo:
+- [ ] Fix conflicts between old kde 4.2.2 packages and modern kde libraries
+- [ ] Add custom theming to calamares installer
+
+### How it was made:
+
+Using advanced modern technology (making PKGBUILDS from .deb packages), the beauty of KDE 4.2.2 can grace modern day Arch Linux! Compiling from source was basically impossible. Deb files were extracted by taking apt database files from Ubuntu 9.04, importing into a modern instance of apt, and downloading all needed packages for "kubuntu-desktop."
+
+## Credits
+
+Arch Linux Calamares Installer (alci-iso) by Erik Dubois https://github.com/arch-linux-calamares-installer/alci-iso
+
+python2-bin aur package by VanillaBase1lb https://github.com/VanillaBase1lb/python2-bin-aur
+
+debtap by helixarch https://github.com/helixarch/debtap (required decent modification after output, see FIX_PKGBUILD scripts in repo folder)
