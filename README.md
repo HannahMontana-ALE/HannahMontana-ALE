@@ -14,7 +14,7 @@ Finally, the world may be graced again by Hannah Montana Linux, but this time fo
 
 ## Offical long name: Hannah Montana Arch(btw) GNU/Linux Edition
 
-### Current Release: 0.1b
+### Current Release: [0.1b](https://github.com/ThePoorPilot/HannahMontana-ALE/releases/latest)
 #### Todo:
 - [ ] Fix conflicts between old kde 4.2.2 packages and modern kde libraries
 - [ ] Add custom theming to calamares installer
