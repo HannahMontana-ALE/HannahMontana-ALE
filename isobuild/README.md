@@ -99,7 +99,7 @@ You will find the iso in this folder:
 
  ~/Alci-Iso-Out
 
-Burn it with etcher or other tools and use it.
+Burn it with etcher or other tools (dd method is below).
 
 On a Linux system, a helpful utility installed by default in the coreutils package is dd. To burn the iso to a drive using this utility, run:
 
