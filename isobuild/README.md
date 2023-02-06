@@ -112,6 +112,12 @@ This is a dangerous command! Learn more about it using:
 
 For reference, check https://linuxize.com/post/how-to-create-a-bootable-linux-usb-drive/ 
 
+Still not sure what to do.
+
+Check out the playlist on Youtube
+
+https://www.youtube.com/playlist?list=PLlloYVGq5pS4vhYQuLikS8dhDjk6xaiXH
+
 # Installation process
 
 Is documented on 
