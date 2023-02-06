@@ -99,14 +99,24 @@ You will find the iso in this folder:
 
  ~/Alci-Iso-Out
 
-Burn it with etcher or other tools and use it.
+Burn it with etcher or other tools (dd method is below).
+
+On a Linux system, a helpful utility installed by default in the coreutils package is dd. To burn the iso to a drive using this utility, run:
+
+`dd bs=4M if="path/to/iso/*.iso" of="/dev/sdx" status=progress oflag=sync`
+
+Replace /dev/sdx with the drive you want to burn to (you can find the drive via lsblk).
+
+This is a dangerous command! Learn more about it using:
+`man dd`
+
+For reference, check https://linuxize.com/post/how-to-create-a-bootable-linux-usb-drive/ 
 
 Still not sure what to do.
 
 Check out the playlist on Youtube
 
 https://www.youtube.com/playlist?list=PLlloYVGq5pS4vhYQuLikS8dhDjk6xaiXH
-
 
 # Installation process
 
